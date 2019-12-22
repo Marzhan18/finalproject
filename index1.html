@@ -1,0 +1,828 @@
+<!--Name and Surname: Abdulla Ydyrys;
+Date end: 22.12.2018;
+Email:170103125@stu.sdu.edu.kz;
+Description: -->
+
+<!DOCTYPE html>
+<html >
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">  
+  <meta name = "viewport" content="width=device-width, initial-scale = 1.0">        
+  <title>ONLINE TIRE SHOP</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <button title="Back to top" class="btn btn-primary scroll" style="position: fixed; right: 0; bottom: 0; display: none; z-index: 100;">
+  <span class="">⇧ SCROLL UP</img></span>
+</button>
+
+<div id="container">
+  <div id="sticky" class="col-md-12">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header" style="width: 450px">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html">HOME</a></li> 
+            <li><a href="index2.html">TIRES</a></li>
+            <li><a href="index1.html">DISKS</a></li>
+            <li style="margin-left: 40px;"><a href=#><img src="images/medal.png"><p style="float: right;">Online tire shop <br># 1 in the WORLD<p></p></a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a> <span class="glyphicon glyphicon-log-in"></span><button style="margin-left: 10px;" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">SIGN IN</button></a></li>
+            <li><a>  <span class="glyphicon glyphicon-user"></span><button style="margin-left: 10px;" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">REGISTRATION</button></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">SIGN IN <br>HELLO AGAIN!</h4>
+
+        </div>
+        <div class="modal-body">
+         <form action="/action_page.php">
+           <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="E-mail" name="email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="email" placeholder="Password" name="password">
+          </div>
+          <button type="submit" class="btn btn-info">SIGN IN</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="modal fade" id="myModal1" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">REGISTRATION</h4>
+      </div>
+      <div class="modal-body">
+        <form action="/action_page.php">
+         <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="email" placeholder="Create new password" name="password">
+        </div> <p>The password must contain at least 8 characters and include two of the following types of characters: letters, numbers and symbols.</p>
+        <div class="form-group">
+          <input type="password" class="form-control" id="email" placeholder="Confirm password" name="password">
+        </div>
+        <button type="submit" class="btn btn-info">Register now</button>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<div class="col-md-12" style="padding-top: 100px;">
+ <div class="col-md-9">
+     <div class="div_disks_1">
+        <div class="header_disks">
+           <a href="#" class="text_href">R13 ET30 DIA228, Toyota Land Cruiser 200, 100</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-1.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+      
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">12 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+     <ul class="ul_disks_1">
+       <li>
+         <span class="text_span">Бренд:</span>
+         <span class="text_span">Кременчук</span>
+       </li>
+     </ul>
+
+     <div class="div_disks_2">
+        <div class="header_disks">
+           <a href="#" class="text_href">Neo Wheels 830</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-2.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">12 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+     
+
+     <div class="div_disks_3">
+        <div class="header_disks">
+           <a href="#" class="text_href">Yamato Sakanowe-no Tamuramaro</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-3.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">12 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+     
+
+     <div class="div_disks_4">
+        <div class="header_disks">
+           <a href="#" class="text_href">PDW Wheels GRANGE</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-4.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">15 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+
+     <div class="div_disks_5">
+        <div class="header_disks">
+           <a href="#" class="text_href">REPLICA A513</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-5.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">6 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+
+     <div class="div_disks_6">
+        <div class="header_disks">
+           <a href="#" class="text_href">RACE Ready CSS9518</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-6.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">45 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+     
+         <div class="div_disks_7">
+        <div class="header_disks">
+           <a href="#" class="text_href">Kosei K3 Formula</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-7.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">23 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+         
+          <div class="div_disks_7">
+        <div class="header_disks">
+           <a href="#" class="text_href">Xtrike X-114</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-8.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">18 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+
+         <div class="div_disks_7">
+        <div class="header_disks">
+           <a href="#" class="text_href">Enkei CS123</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-9.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">20 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+
+         <div class="div_disks_7">
+        <div class="header_disks">
+           <a href="#" class="text_href">Tech Line 665</a>
+        </div>
+        <div class="div_disks_image_and_rating">
+        <div class="div_disk_image">
+          <img class="image_class" src="images/disk-10.jpg">
+        </div>
+        <div  class="div_rating">
+          <div class="div_text_rating">
+            <a href="#" class="text_rating">Rating</a>
+          </div>
+          
+           </div>
+           </div>
+          
+          <div class="div_right">
+            <div class="div_price">
+               <p class="text_price">25 000 tg</p>
+            </div>
+            <div class="div_button">
+              <button class="button_class">Купить</button>
+            </div>
+            <div class="text_div">
+              <a href="#" class="text_compare">Compare</a>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="div_button_load">
+           <button class="button_class_2">LOAD</button>
+        </div>
+        
+
+      </div>
+
+ 
+
+
+
+	<div class=" col-md-3">
+    <div id="sidebar" style="border-right:1px solid #eee;">
+      <div class="col-md-12"><h3>CART  <img src="images/cart.png" style="width:21px; height:19px;">  </h3>
+
+        <div id="checkout">CHECKOUT</div>
+        <div id="cart">
+          <span class="empty">No items in cart.</span>       
+        </div>
+      </div> 
+      <div class="col-md-12">
+        <h3>CATEGORIES</h3>
+        <div class="checklist categories">
+          <ul>
+            <li><a href=""><span></span>Daewoo</a></li>
+            <li><a href=""><span></span>Audi</a></li>
+            <li><a href=""><span></span>Subaru</a></li>
+            <li><a href=""><span></span>Suzuki</a></li>
+            <li><a href=""><span></span>Toyota</a></li>
+            <li><a href=""><span></span>Volkswagen</a></li>
+            <li><a href=""><span></span>Mercedes</a></li>
+            <li><a href=""><span></span>Mazda</a></li>
+            <li><a href=""><span></span>Jaguar</a></li>
+            <li><a href=""><span></span>JEEP</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <h3>WIDTH</h3>
+        <div class="checklist categories">
+          <ul>
+            <li><a href=""><span></span>175</a></li>
+            <li><a href=""><span></span>185</a></li>
+            <li><a href=""><span></span>195</a></li>
+            <li><a href=""><span></span>205</a></li>
+            <li><a href=""><span></span>215</a></li>
+            <li><a href=""><span></span>225</a></li>
+            <li><a href=""><span></span>235</a></li>
+            <li><a href=""><span></span>245</a></li>
+            <li><a href=""><span></span>255</a></li>
+            <li><a href=""><span></span>265</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <h3>DIAMETER</h3>
+        <div class="checklist categories">
+          <ul>
+            <li><a href=""><span></span>R12</a></li>
+            <li><a href=""><span></span>R13</a></li>
+            <li><a href=""><span></span>R14</a></li>
+            <li><a href=""><span></span>R15</a></li>
+            <li><a href=""><span></span>R16</a></li>
+            <li><a href=""><span></span>R17</a></li>
+            <li><a href=""><span></span>R18</a></li>
+            <li><a href=""><span></span>R19</a></li>
+            <li><a href=""><span></span>R20</a></li>
+            <li><a href=""><span></span>R21</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+       <h3>PRICE RANGE</h3>
+       <img src="images/price-range.png" alt="" />
+     </div>
+   </div>
+ </div>
+
+<script>
+      $(document).ready(function(){
+         $(".button_class_2").click(function(){
+          $(".div_disks_7").show();
+        });
+      });
+      </script>
+
+<style type="text/css">
+   .div_disks_1 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_1:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_2 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_2:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_3 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_3:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_4 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_4:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_5 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_5:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_6 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_6:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_7 {
+    display: none;
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_7:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_8 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_8:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_9 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_9:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+   .div_disks_10 {
+     height: 350px;
+     width: 410px;
+     border: 1px solid grey;
+     float: left;
+     margin: 10px;
+     border-radius: 2px;
+   }
+   .div_disks_10:hover {
+     box-shadow: 0 0 5px 2px #4169E1;
+
+   }
+
+  
+   ul {
+    margin: 0;
+   }
+   ul.ul_disks_1 {
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    margin-top: 360px;
+    margin-left: 10px;
+    height: 130px;
+    width: 410px;
+    background: #487ed3;
+    color: white;
+    z-index: 2;
+   }
+   .div_disks_1:hover+.ul_disks_1{
+    display: block;
+   }
+    
+    .header_disks {
+    position: relative;
+     height:15%;
+     width: 100%;
+     text-align: center;
+     float: left;
+   }
+   .div_disks_image_and_rating {
+     height: 85%;
+     width: 60%;
+     float: left;
+   }
+    .div_disk_image {
+      height: 60%;
+      width: 100%;
+    }
+    .div_rating {
+      position: relative;
+      height: 40%;
+      width: 100%;
+    }
+    .div_text_rating {
+      height: 24%;
+      width: 100%;
+
+    }
+    .div_right {
+      position: relative;
+      height: 70%;
+      width: 40%;
+      float: left;
+    }
+    .div_price {
+      position: relative;
+      height: 25%;
+      width: 100%;
+    }
+    .div_button {
+      position: relative;
+      height: 50%;
+      width: 100%;
+
+    }
+    .text_div {
+      position: relative;
+      height: 25%;
+      width: 100%;
+
+    }
+    .div_button_load {
+      position: relative;
+      height: 20%;
+      width: 100%;
+      float: left;
+    }
+
+    /* text */
+
+   .text_span {
+    width: 46%;
+    text-align: left;
+   }
+    .text_href {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 12px;
+      text-align: center;
+      font-size: 15px;
+      color: blue;
+      }
+      .text_href a{
+        text-decoration: none;
+      }
+    .image_class {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+    .image_class:hover {
+      height: 105%;
+      width: 105%;
+    }
+    .text_rating {
+       position: absolute;
+       left: 0;
+      right: 0;
+      margin: 0 auto;
+      font-size: 20px;
+      font-family: Verdana;
+      text-align: center;
+    }
+    .text_price {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 20px;
+      color: black;
+    }
+     .button_class {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 35px;
+      height: 35px;
+      width: 90px;
+      background: #3b68ad;
+     border-color: #355e9d;
+     color: white;
+     border-radius: 5px;
+     }
+     .button_class:hover {
+       height: 39px;
+       width: 95px;
+     }
+     .button_class_2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-left: 385px;
+      height: 35px;
+      width: 90px;
+      background: #3b68ad;
+     border-color: #355e9d;
+     color: white;
+     border-radius: 5px;
+     }
+     .text_compare {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      font-family: "Times New Roman", Times, serif;
+     }
+</style>
+
+ 
+  
+<script type="text/javascript">
+  $(document).ready(function(){
+    var scrollTop = 0;
+    $(window).scroll(function(){
+      scrollTop = $(window).scrollTop();
+      $('.counter').html(scrollTop); 
+      if (scrollTop >= 300) {
+       $('.scroll').show();
+     } else if (scrollTop < 20) {    
+       $('.scroll').hide();
+     }     
+   }); 
+  });
+</script>
+
+<script type="text/javascript">
+  let intervalId = 0; 
+  const $scrollButton = document.querySelector('.scroll'); 
+
+  function scrollStep() {
+    if (window.pageYOffset === 0) {
+      clearInterval(intervalId);
+    }
+    window.scroll(0, window.pageYOffset - 50);
+  }
+  function scrollToTop() {
+    intervalId = setInterval(scrollStep, 16.66);
+  }
+  $scrollButton.addEventListener('click', scrollToTop);
+</script>
+
+</body>
+</html>
